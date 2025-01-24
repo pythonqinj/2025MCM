@@ -1,0 +1,211 @@
+NOC,Year,Gold,Silver,Bronze
+Denmark,1896,1,2,3
+France,1896,5,4,2
+Germany,1896,6,5,2
+Great Britain,1896,2,3,2
+Greece,1896,10,18,19
+Hungary,1896,2,1,3
+Australia,1896,2,0,0
+Switzerland,1896,1,2,0
+Austria,1896,2,1,2
+Mixed team,1896,1,0,1
+United States,1896,11,7,2
+Bohemia,1900,0,1,1
+Canada,1900,1,0,1
+Belgium,1900,6,7,4
+Italy,1900,3,2,0
+Luxembourg,1900,1,0,0
+Spain,1900,1,0,0
+India,1900,0,2,0
+Netherlands,1900,0,2,3
+Sweden,1900,0,0,1
+Cuba,1900,1,1,0
+Norway,1900,0,2,3
+Finland,1908,1,1,3
+Russian Empire,1908,1,2,0
+South Africa,1908,1,1,0
+Australasia,1908,1,2,2
+New Zealand,1920,0,0,1
+Czechoslovakia,1920,0,0,2
+Brazil,1920,1,1,1
+Estonia,1920,1,2,0
+Japan,1920,0,2,0
+Romania,1924,0,0,1
+Yugoslavia,1924,2,0,0
+Portugal,1924,0,0,1
+Argentina,1924,1,3,2
+Poland,1924,0,1,1
+Uruguay,1924,1,0,0
+Haiti,1924,0,0,1
+Egypt,1928,2,1,1
+Ireland,1928,1,0,0
+Philippines,1928,0,0,1
+Chile,1928,0,1,0
+Germany ,1932,5,12,7
+Great Britain ,1932,5,7,5
+France ,1932,11,5,4
+South Africa ,1932,2,0,3
+Sweden ,1932,10,5,9
+United States ,1932,44,36,30
+New Zealand ,1932,0,1,0
+Switzerland ,1932,0,1,0
+Ireland ,1932,2,0,0
+Poland ,1932,3,2,4
+Italy ,1932,12,12,12
+Japan ,1932,7,7,4
+Latvia ,1932,0,1,0
+Mexico ,1932,0,2,0
+Philippines ,1932,0,0,3
+Netherlands ,1932,2,5,1
+Hungary ,1932,6,5,5
+India ,1932,1,0,0
+Spain ,1932,0,0,1
+Australia ,1932,3,1,1
+Austria ,1932,1,1,3
+Denmark ,1932,0,5,3
+Czechoslovakia ,1932,1,3,2
+Canada ,1932,2,5,9
+Belgium ,1932,0,0,1
+Finland ,1932,5,8,12
+Argentina ,1932,3,1,0
+Uruguay ,1932,0,0,1
+Latvia,1936,0,1,1
+Mexico,1936,0,0,3
+Turkey,1936,1,0,1
+Panama,1948,0,0,2
+Peru,1948,1,0,0
+Puerto Rico,1948,0,0,1
+Ceylon,1948,0,1,0
+Iran,1948,0,0,1
+Jamaica,1948,1,2,0
+South Korea,1948,0,0,2
+Trinidad and Tobago,1948,0,1,0
+Bulgaria,1952,0,0,1
+Lebanon,1952,0,1,1
+Venezuela,1952,0,0,1
+Soviet Union,1952,22,30,19
+United Team of Germany,1956,6,13,7
+Iceland,1956,0,1,0
+Bahamas,1956,0,0,1
+Pakistan,1956,0,1,0
+British West Indies ,1960,0,0,2
+Morocco ,1960,0,1,0
+Turkey ,1960,7,2,0
+Brazil ,1960,0,0,2
+Norway ,1960,1,0,0
+Pakistan ,1960,1,0,1
+Venezuela ,1960,0,0,1
+Formosa ,1960,0,1,0
+Portugal ,1960,0,1,0
+Soviet Union ,1960,43,29,31
+Ethiopia ,1960,1,0,0
+United Team of Germany ,1960,12,19,11
+Ghana ,1960,0,1,0
+Egypt ,1960,0,1,1
+Yugoslavia ,1960,1,1,0
+Singapore ,1960,0,1,0
+Romania ,1960,3,1,6
+Greece ,1960,1,0,0
+Iraq ,1960,0,0,1
+Bulgaria ,1960,1,3,3
+Iran ,1960,0,1,3
+Ethiopia,1964,1,0,0
+Nigeria,1964,0,0,1
+Tunisia,1964,0,1,1
+Kenya,1964,0,0,1
+Ghana,1964,0,0,1
+Mongolia,1968,0,1,3
+Taiwan,1968,0,0,1
+East Germany,1968,9,9,7
+West Germany,1968,5,11,10
+Uganda,1968,0,1,1
+Cameroon,1968,0,1,0
+North Korea,1972,1,1,3
+Niger,1972,0,0,1
+Colombia,1972,0,1,2
+Thailand,1976,0,0,1
+Bermuda,1976,0,0,1
+Tanzania,1980,0,2,0
+Zimbabwe,1980,1,0,0
+Guyana,1980,0,0,1
+Syria,1984,0,1,0
+Morocco,1984,2,0,0
+Zambia,1984,0,0,1
+Dominican Republic,1984,0,0,1
+Algeria,1984,0,0,2
+Chinese Taipei,1984,0,0,1
+Ivory Coast,1984,0,1,0
+China,1984,15,8,9
+Indonesia,1988,0,1,0
+Djibouti,1988,0,0,1
+Suriname,1988,1,0,0
+Netherlands Antilles,1988,0,1,0
+Costa Rica,1988,0,1,0
+Senegal,1988,0,1,0
+Virgin Islands,1988,0,1,0
+Unified Team,1992,45,38,29
+Israel,1992,0,1,1
+Qatar,1992,0,0,1
+Croatia,1992,0,1,2
+Lithuania,1992,1,0,1
+Malaysia,1992,0,0,1
+Independent Olympic Participants,1992,0,1,2
+Namibia,1992,0,2,0
+Slovenia,1992,0,0,2
+Ecuador,1996,1,0,0
+Slovakia,1996,1,1,1
+Georgia,1996,0,0,2
+FR Yugoslavia,1996,1,1,2
+Uzbekistan,1996,0,1,1
+Burundi,1996,1,0,0
+Hong Kong,1996,1,0,0
+Azerbaijan,1996,0,1,0
+Russia,1996,26,21,16
+Czech Republic,1996,4,3,4
+Belarus,1996,1,6,8
+Kazakhstan,1996,3,4,4
+Tonga,1996,0,1,0
+Ukraine,1996,9,2,12
+Moldova,1996,0,1,1
+Mozambique,1996,0,0,1
+Armenia,1996,1,1,0
+Vietnam,2000,0,1,0
+Kyrgyzstan,2000,0,0,1
+Kuwait,2000,0,0,1
+Barbados,2000,0,0,1
+Saudi Arabia,2000,0,1,1
+Sri Lanka,2000,0,1,0
+Macedonia,2000,0,0,1
+Serbia and Montenegro,2004,0,2,0
+Eritrea,2004,0,0,1
+United Arab Emirates,2004,1,0,0
+Paraguay,2004,0,1,0
+Mauritius,2008,0,0,1
+Togo,2008,0,0,1
+Sudan,2008,0,1,0
+Afghanistan,2008,0,0,1
+Singapore,2008,0,1,0
+Tajikistan,2008,0,1,1
+Samoa,2008,0,1,0
+Serbia,2008,0,1,2
+Bahrain,2012,1,0,0
+Botswana,2012,0,1,0
+Cyprus,2012,0,1,0
+Gabon,2012,0,1,0
+Guatemala,2012,0,1,0
+Grenada,2012,1,0,0
+Montenegro,2012,0,1,0
+Jordan,2016,1,0,0
+Fiji,2016,1,0,0
+Kosovo,2016,1,0,0
+Independent Olympic Athletes,2016,1,0,1
+San Marino,2020,0,1,2
+ROC,2020,20,28,23
+Turkmenistan,2020,0,1,0
+Burkina Faso,2020,0,0,1
+North Macedonia,2020,0,1,0
+Dominica,2024,1,0,0
+Cabo Verde,2024,0,0,1
+Saint Lucia,2024,1,1,0
+Albania,2024,0,0,2
+Refugee Olympic Team,2024,0,0,1
