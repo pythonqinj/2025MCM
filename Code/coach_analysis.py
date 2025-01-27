@@ -8,31 +8,40 @@ from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.utils import resample
 
-# 设置随机种子
-np.random.seed(42)
+# # 设置随机种子
+# np.random.seed(42)
 
-# 生成数据
-years = np.arange(1980,2024,4)
-countries = ['USA','China','Germany','Russia','UK','Japan','Australia','Brazil','France','India','Italy','Canada']
+# # 生成数据
+# years = np.arange(1980,2024,4)
+# countries = ['USA','China','Germany','Russia','UK','Japan','Australia','Brazil','France','India','Italy','Canada']
 
-data = {
-    'Year':np.repeat(years,len(countries)),
-    'Country':countries*len(years),
-    'Gold':np.random.randint(0,100,len(years)*len(countries)),
-    'Silver':np.random.randint(0,100,len(years)*len(countries)),
-    'Bronze':np.random.randint(0,100,len(years)*len(countries)),
-    'Total':np.random.randint(100,500,len(years)*len(countries)),
-    'Project_count':np.random.randint(20,50,len(years)*len(countries)),
-    'Host':np.random.choice([0,1],len(years)*len(countries)),
-    'Coach_effect':np.random.choice([0,1],len(years)*len(countries))    # 教练效应,1表示有影响，0表示无影响
-}
+# data = {
+#     'Year':np.repeat(years,len(countries)),
+#     'Country':countries*len(years),
+#     'Gold':np.random.randint(0,100,len(years)*len(countries)),
+#     'Silver':np.random.randint(0,100,len(years)*len(countries)),
+#     'Bronze':np.random.randint(0,100,len(years)*len(countries)),
+#     'Total':np.random.randint(100,500,len(years)*len(countries)),
+#     'event_count':np.random.randint(20,50,len(years)*len(countries)),
+#     'Is_host':np.random.choice([0,1],len(years)*len(countries)),
+#     'Coach_effect':np.random.choice([0,1],len(years)*len(countries))    # 教练效应,1表示有影响，0表示无影响
+# }
 
-# 创建数据框
-df = pd.DataFrame(data)
+# # 创建数据框
+# df = pd.DataFrame(data)
+
+# 读取csv文件
+df = pd.read_csv('analysis_data1.csv',encoding='utf-8')
+
+# 检查数据是否包含所需的列
+required_columns = ['Year', 'Country', 'Gold', 'Silver', 'Bronze', 'Total', 'event_count', 'Host', 'Coach_effect']
+for col in required_columns:
+    if col not in df.columns:
+        raise ValueError(f"Missing required column: {col}")
 
 # 数据标准化
 scaler = StandardScaler()
-X = df[['Gold','Silver','Bronze','Project_count','Host']]
+X = df[['Gold','Silver','Bronze','event_count','Is_host']]
 X_scaled = scaler.fit_transform(X)
 
 # 目标变量：金牌数
@@ -137,12 +146,11 @@ lower_gold,upper_gold = bootstrap_predict(model,X_test,y_test_gold)
 
 # 可视化5：2028年金牌数的不确定性
 plt.figure(figsize=(10,6))
-sns.histplot(y_pred_gold,bins=30,kde=True,color='blue',label='Predicted Gold Medals')
-plt.fill_between(np.arange(len(lower_gold)),lower_gold,upper_gold,color='blue',alpha=0.3,label='95% Confidence Interval')
+sns.histplot(y_pred_gold,bins=30,kde=True,color='orange',label='Predicted Gold Medals')
+plt.fill_between(np.arange(len(lower_gold)),lower_gold,upper_gold,color='orange',alpha=0.3,label='95% Confidence Interval')
 plt.legend()
 plt.title('Gold Medal Prediction with 95% Confidence Interval',fontsize=14)
 plt.xlabel('Predicted Gold Medals',fontsize=12)
 plt.ylabel('Frequency',fontsize=12)
 plt.tight_layout()
 plt.show()
-                        
